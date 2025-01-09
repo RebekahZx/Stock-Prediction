@@ -24,6 +24,7 @@ header img {
 main {
     display: flex;
     justify-content: center;
+    background-color: #f6d7d7;
 }
 
 /* Panels */
