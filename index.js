@@ -54,7 +54,7 @@ async function fetchStockData() {
         }))
         fetchReport(stockData.join(''))
     } catch (err) {
-        loadingArea.innerText = 'Oopsie-Daisy! 🚀 Looks like the stock API wand is on a coffee break! ☕️ The owner has temporarily locked the gates. 🛑 To unlock the awesomeness, give them a shout! 📞jaynavekar@gmail.com Don't be shy, they don't bite... much! 😜'
+        loadingArea.innerText = `Oopsie-Daisy! 🚀 Looks like the stock API wand is on a coffee break! ☕️ The owner has temporarily locked the gates. 🛑 To unlock the awesomeness, give them a shout! 📞jaynavekar@gmail.com Don't be shy, they don't bite... much! 😜`
         console.error(err.message)
     }
 }
@@ -95,7 +95,7 @@ async function fetchReport(data) {
         renderReport(data.content)
     } catch (err) {
         console.error(err.message)
-        loadingArea.innerText = 'Oopsie-Daisy! 🚀 Looks like the magic API wand is on a coffee break! ☕️ The owner has temporarily locked the gates. 🛑 To unlock the awesomeness, give them a shout! 📞jayanavekar@gmail.com Don't be shy, they don't bite... much! 😜'
+        loadingArea.innerText = `Oopsie-Daisy! 🚀 Looks like the magic API wand is on a coffee break! ☕️ The owner has temporarily locked the gates. 🛑 To unlock the awesomeness, give them a shout! 📞jayanavekar@gmail.com Don't be shy, they don't bite... much! 😜`
     }
 }
 
